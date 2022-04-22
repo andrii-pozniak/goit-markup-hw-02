@@ -5,6 +5,7 @@ color: #757575;
 font-family: Roboto, sans-serif;
 letter-spacing: 0.03em;
 }
+
 .list {
     list-style: none;
 }
@@ -19,13 +20,15 @@ letter-spacing: 0.03em;
 }
 .logo {
     color: #212121;
-
+    
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2;       
-   
+    line-height: 1.2;
+}
+        
+
 .logo:hover {
     color: #757575;
 }
@@ -68,7 +71,9 @@ letter-spacing: 0.03em;
     letter-spacing: 0.06em;
     text-transform: uppercase;   
     }
-    
+    .hide {
+        display: none;
+    }
 .button {
     background-color: #2196F3;
     color: #FFFFFF;   
@@ -159,6 +164,12 @@ letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;        
     
+}
+
+/* Portfolio */
+
+.page-nav .list {
+    color: #212121;
 }
 
 /* вторичный цвет текста #212121;*/
