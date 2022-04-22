@@ -1,4 +1,5 @@
 body {
+background-color:#FFFF;
 color: #757575;
 }
 .list {
@@ -26,8 +27,57 @@ color: #757575;
 .auto-nav .adress:hover {
     color: #2196F3
 }
+/* Hero section */
+.hero-section {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+.button {
+    background-color: #2196F3;
+    color: #FFFFFF; 
+}
+.button:hover {
+    background-color:#FFFFFF;
+    color: #2F303A;
+}
+.button:focus {
+    color: #FFFFFF;
+}
 
+/* section features */
+.features {
+}
+.third-text {
+    color: #212121;
+}
+/* Work */
+.work {
 
+}
+.second-text {
+    color: #212121;
+}
+/* Team */
+.team {
+    background-color: #F5F4FA;
+}
+/* Hooter */
+.hooter {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+.hooter-adress {
+    color: #FFFFFF;
+}
+.logo-hooter {
+    color: #FFFFFF;
+}
+.logo-hooter > span {
+    color: #2196F3;
+}
+.hooter-a {
+    color: rgba(255, 255, 255, 0.6);
+}
 
 /* вторичный цвет текста #212121;*/
 /*основной цвет текста #757575;*/
