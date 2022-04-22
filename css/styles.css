@@ -1,0 +1,41 @@
+body {
+color: #757575;
+}
+.list {
+    list-style: none;
+}
+/* header */
+.page-header {
+    background-color:#FFFF ;
+}
+.logo {
+    color: #212121;
+}
+.logo > span {
+    color: #2196F3;
+}
+.site-nav .link{
+    color: #212121;
+}
+.site-nav .link:hover {
+    color: #2196F3;
+}
+  .auto-nav .adress {
+     color: #757575; 
+  }
+.auto-nav .adress:hover {
+    color: #2196F3
+}
+
+
+
+/* вторичный цвет текста #212121;*/
+/*основной цвет текста #757575;*/
+/*белый #FFFFFF*/
+/* эфект #2196F3;*/
+/* цвет адреса в ховере rgba(255, 255, 255, 0.6) */
+/* color background hader #FFFF*/
+/* color background hero #2F303A */
+/* color background section #E5E5E5 */
+/* color background section team #F5F4FA */
+/*color background footer #2F303A */
