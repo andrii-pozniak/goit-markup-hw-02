@@ -3,6 +3,7 @@ background-color:#FFFF;
 color: #757575;
 
 font-family: Roboto, sans-serif;
+letter-spacing: 0.03em;
 }
 .list {
     list-style: none;
@@ -24,8 +25,7 @@ font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;       
-    letter-spacing: 0.03em;
-}
+   
 .logo:hover {
     color: #757575;
 }
@@ -37,7 +37,7 @@ font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03
+    
 }
 .logo>span:hover {
     color: #757575;
@@ -66,8 +66,9 @@ font-family: Roboto, sans-serif;
     line-height: 1.36;    
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
-}
+    text-transform: uppercase;   
+    }
+    
 .button {
     background-color: #2196F3;
     color: #FFFFFF;   
@@ -96,8 +97,7 @@ font-family: Roboto, sans-serif;
         
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    line-height: 16px;    
     text-transform: uppercase;
 }
 /* Work */
@@ -111,7 +111,7 @@ font-family: Roboto, sans-serif;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
+    
 }
 /* Team */
 .team {
@@ -129,7 +129,7 @@ font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;     
-    letter-spacing: 0.03em;
+    
 }
 .logo-hooter {
     color: #FFFFFF;
@@ -139,7 +139,7 @@ font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03
+    
 }
 .logo-hooter > span {
     color: #2196F3;
@@ -149,7 +149,7 @@ font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03
+    
 }
 .hooter-a {
     color: rgba(255, 255, 255, 0.6);
@@ -158,7 +158,7 @@ font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;        
-    letter-spacing: 0.03em;
+    
 }
 
 /* вторичный цвет текста #212121;*/
