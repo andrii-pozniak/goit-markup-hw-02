@@ -168,8 +168,56 @@ letter-spacing: 0.03em;
 
 /* Portfolio */
 
-.page-nav .list {
+.page {
+
+    font-family: 'Roboto';
+    font-size: 16px;
+    letter-spacing: 0.03em;
+
+}
+.page .all {
+    background-color: #2196F3;
+    color: #FFFFFF;
+
+    font-weight: 500;    
+    line-height: 1.62;
+    text-align: center;
+
+}
+.page .all:hover, .page .all:focus {
+    background-color: #F5F4FA;
     color: #212121;
+}
+
+.page .list {
+
+   background-color: #F5F4FA;
+   color: #212121;
+
+font-weight: 500;
+line-height: 1.62;
+text-align: center;
+
+}
+.page-nav .list:hover,.page-nav .list:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.photo {
+    color: #757575;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88; 
+    
+}
+.photo .title {
+    color: #212121;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;    
+    letter-spacing: 0.06em;
 }
 
 /* вторичный цвет текста #212121;*/
