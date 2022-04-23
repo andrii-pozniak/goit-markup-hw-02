@@ -24,7 +24,7 @@ letter-spacing: 0.03em;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
+    x
     line-height: 1.2;
 }
         
@@ -194,10 +194,9 @@ letter-spacing: 0.03em;
    background-color: #F5F4FA;
    color: #212121;
 
-font-weight: 500;
-line-height: 1.62;
-text-align: center;
-
+ font-weight: 500;
+ line-height: 1.62;
+ text-align: center;
 }
 .page-nav .list:hover,.page-nav .list:focus {
     background-color: #2196F3;
