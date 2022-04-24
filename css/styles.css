@@ -1,6 +1,14 @@
+:root {
+    --primery-text-color:#757575;
+    --title-color: #212121;
+    --acsent-color: #2196F3;
+    --white-color: #FFFF;
+    --background-color: #F5F4FA;
+    --button-color: #2F303A;
+}
 body {
-background-color:#FFFF;
-color: #757575;
+background-color: var(--white-color);
+color: var(--primery-text-color);
 
 font-family: Roboto, sans-serif;
 letter-spacing: 0.03em;
@@ -11,7 +19,7 @@ letter-spacing: 0.03em;
 }
 /* header */
 .page-header {
-    background-color:#FFFF ;
+    background-color:var(--white-color) ;
     
     font-weight: 500;
     font-size: 14px;
@@ -19,7 +27,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.02em;
  }
 .logo {
-    color: #212121;
+    color: var(--title-color);
     
     font-family: 'Raleway';
     font-style: normal;
@@ -30,10 +38,10 @@ letter-spacing: 0.03em;
         
 
 .logo:hover {
-    color: #757575;
+    color: var(--primery-text-color);
 }
 .logo > span {
-    color: #2196F3;
+    color: var(--title-color);
 
     font-family: 'Raleway';
     font-style: normal;
@@ -43,26 +51,26 @@ letter-spacing: 0.03em;
     
 }
 .logo>span:hover {
-    color: #757575;
+    color: var(--primery-text-color);
 }
 .site-nav .link{
-    color: #212121;    
+    color: var(--title-color);    
 }
  .site-nav .link:hover,.site-nav .link:focus {
-    color: #2196F3;
+    color: var(--acsent-color);
 }
   .auto-nav .adress {
-     color: #757575;
+     color: var(--primery-text-color);
 
   }
 
  .auto-nav .adress:hover,.auto-nav .adress:focus {
-    color: #2196F3
+    color: var(--acsent-color);
 }
 /* Hero section */
 .hero-section {
-    background-color: #2F303A;
-    color: #FFFFFF;
+    background-color: var(--button-color);
+    color: var(--white-color);
    
     font-weight: 900;
     font-size: 44px;
@@ -75,8 +83,8 @@ letter-spacing: 0.03em;
         display: none;
     }
 .button {
-    background-color: #2196F3;
-    color: #FFFFFF;   
+    background-color: var(--acsent-color);
+    color: var(--white-color);   
     
     font-weight: 700;
     font-size: 16px;
@@ -87,18 +95,18 @@ letter-spacing: 0.03em;
     letter-spacing: 0.06em;
 }
 .button:hover {
-    background-color:#FFFFFF;
-    color: #2F303A;
+    background-color:var(--white-color);
+    color: var(--button-color);
 }
 .button:focus {
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 /* section features */
 .features {
 }
 .third-text {
-    color: #212121; 
+    color: var(--title-color); 
         
     font-weight: 700;
     font-size: 14px;
@@ -110,7 +118,7 @@ letter-spacing: 0.03em;
 
 }
 .second-text {
-    color: #212121;    
+    color: var(--title-color);    
         
     font-weight: 700;
     font-size: 36px;
@@ -120,15 +128,15 @@ letter-spacing: 0.03em;
 }
 /* Team */
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--background-color);
 }
 /* Hooter */
 .hooter {
-    background-color: #2F303A;
-    color: #FFFFFF;
+    background-color: var(--button-color);
+    color: var(--white-color);
 }
 .hooter-adress {
-    color: #FFFFFF;
+    color: var(--white-color);
     
     font-style: normal;
     font-weight: 400;
@@ -137,7 +145,7 @@ letter-spacing: 0.03em;
     
 }
 .logo-hooter {
-    color: #FFFFFF;
+    color: var(--white-color);
 
     font-family: 'Raleway';
     font-style: normal;
@@ -147,7 +155,7 @@ letter-spacing: 0.03em;
     
 }
 .logo-hooter > span {
-    color: #2196F3;
+    color: var(--acsent-color);
 
     font-family: 'Raleway';
     font-style: normal;
@@ -176,8 +184,8 @@ letter-spacing: 0.03em;
 
 }
 .page .all {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--acsent-color);
+    color: var(--white-color);
 
     font-weight: 500;    
     line-height: 1.62;
@@ -185,25 +193,25 @@ letter-spacing: 0.03em;
 
 }
 .page .all:hover, .page .all:focus {
-    background-color: #F5F4FA;
-    color: #212121;
+    background-color: var(--background-color);
+    color: var(--title-color);
 }
 
 .page .list {
 
-   background-color: #F5F4FA;
-   color: #212121;
+   background-color: var(--background-color);
+   color: var(--title-color);
 
  font-weight: 500;
  line-height: 1.62;
  text-align: center;
 }
 .page-nav .list:hover,.page-nav .list:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--acsent-color);
+    color: var(--white-color);
 }
 .photo {
-    color: #757575;
+    color: var(--primery-text-color);
 
     font-weight: 400;
     font-size: 16px;
@@ -211,7 +219,7 @@ letter-spacing: 0.03em;
     
 }
 .photo .title {
-    color: #212121;
+    color: var(--title-color);
 
     font-weight: 700;
     font-size: 18px;
