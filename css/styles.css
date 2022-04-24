@@ -41,7 +41,7 @@ letter-spacing: 0.03em;
     color: var(--primery-text-color);
 }
 .logo > span {
-    color: var(--title-color);
+    color: var(--acsent-color);
 
     font-family: 'Raleway';
     font-style: normal;
