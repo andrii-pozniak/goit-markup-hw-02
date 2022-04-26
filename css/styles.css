@@ -83,12 +83,15 @@ font-family: Roboto, sans-serif;
     background-color: var(--button-color);
     color: var(--white-color);
    
+       
+}
+.hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;    
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;   
+    text-transform: uppercase;
 }
    
 .hide {
@@ -123,7 +126,8 @@ font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em; 
+    text-transform: uppercase;
     
 }
 /* Work */
@@ -143,6 +147,17 @@ font-family: Roboto, sans-serif;
 /* Team */
 .team {
     background-color: var(--background-color);
+}
+.team-photo {
+    background-color: var(--white-color);
+}
+.team-text {
+    color: var(--title-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;     
+    letter-spacing: 0.03em;
 }
 
 /* Hooter */
@@ -184,7 +199,7 @@ font-family: Roboto, sans-serif;
     
     text-decoration: none;    
 }
-.hooter-a:hover {
+.hooter-a:hover, .hooter-a:focus {
     color: var(--acsent-color);   
 }
 
@@ -214,7 +229,15 @@ font-family: Roboto, sans-serif;
 }
 .button-port {
   background-color: var(--background-color);
-  color: var(--title-color);  
+  color: var(--title-color);
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 16px;
+ letter-spacing: 0.02em;
+  
+
 }
 .button-port:hover, .button-port:focus {
     background-color: var(--acsent-color);
